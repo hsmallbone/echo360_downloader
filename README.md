@@ -2,7 +2,7 @@
 A python script to download Echo360 lectures.
 
 ## Usage
-Copy and run script.js in the developer console on the Echo360 page. Make sure you are in the right script context.
+Copy and run link_extractor.js in the developer console on the Echo360 page. Make sure you are in the right script context.
 Run the python command it outputs.
 
 ## Details

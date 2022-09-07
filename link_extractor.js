@@ -5,6 +5,6 @@ $(".thumbnail").each(function(i, e){
     if (!e.src) return;
     var src = e.src.split('/');
     var content = src.slice(0, 7).join('/') +  '/';
-    parts += ' ' + content + ' "' + src[4] + ' ' + title.replace(/[\/><|?:]/g, ' ') + '"';
+    parts += ' ' + content + ' "' + src[4] + ' ' + title.replace(/[\/&><|?:]/g, ' ') + '"';
 });
 console.log('python echodownload.py' + parts);
